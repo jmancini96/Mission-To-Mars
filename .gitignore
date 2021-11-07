@@ -112,3 +112,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Mission_to_mars.ipynb
+Practice.ipynb
