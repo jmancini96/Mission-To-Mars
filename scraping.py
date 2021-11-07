@@ -106,7 +106,7 @@ def mars_hemispheres(browser):
     url = 'https://marshemispheres.com/'
     browser.visit(url)
 
-    for hemisphere in range(0, 3):
+    for hemisphere in range(0, 4):
         
         full_image_elem = browser.find_by_tag('h3')[hemisphere]
         full_image_elem.click()
