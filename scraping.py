@@ -124,7 +124,7 @@ def mars_hemispheres(browser):
     
         title = html_soup.find('h2').get_text()
 
-        hemispheres = {html_url : title}
+        hemispheres = {"title" : title, "html_url" : html_url}
     
         hemisphere_image_urls.append(hemispheres)
         browser.back()
